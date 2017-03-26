@@ -19,4 +19,3 @@ docker_push:
 	docker push $(TAG); \
 	docker logout;
 
-PASSWORD=#olatesterka007d make docker_push
