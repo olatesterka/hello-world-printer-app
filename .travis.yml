@@ -5,3 +5,5 @@ install:
  - make deps
 script:
  - make test
+docker_build:
+ docker build -t hello-world-printer
